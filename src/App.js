@@ -1,9 +1,10 @@
 import './App.css';
+import Label from './components/Label/label';
 
 function App() {
   return (
     <div className="App">
-      <h1>Home</h1>
+      <Label text="ID 74003" />
     </div>
   );
 }

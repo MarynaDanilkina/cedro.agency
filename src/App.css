@@ -11,6 +11,12 @@
   --accent-200: rgba(0, 103, 254, 0.10);
   --accent-100: rgba(0, 103, 254, 0.05);
 }
+body,
+h1,
+p{
+  margin: 0;
+  font-family: Roboto Condensed;
+}
 .App {
   text-align: center;
 }

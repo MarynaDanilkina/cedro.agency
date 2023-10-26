@@ -1,0 +1,20 @@
+.label{
+  display: flex;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid var(--black-200);
+  background: var(--black-100);
+  padding: 0px 12px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.p__label{
+  color: var(--black-500);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
