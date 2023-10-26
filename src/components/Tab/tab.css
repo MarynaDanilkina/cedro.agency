@@ -2,7 +2,7 @@
   padding: 12px 0px;
 }
 .p__tab{
-  color: var(--text-tertiary, rgba(7, 0, 15, 0.40));
+  color: var(--black-300);
   font-family: Roboto Condensed;
   font-size: 16px;
   font-style: normal;
@@ -11,15 +11,19 @@
   letter-spacing: -0.32px;
   text-transform: uppercase;
 }
+.p__tab:hover{
+  cursor: pointer;
+  color: var(--black-500);
+}
 .tab__container-active{
   padding: 12px 0px;
-  border-bottom: 1px solid var(--border-strong, #07000F);
+  border-bottom: 1px solid var(--black-500);
 }
 .tab__container-active:hover > .p__tab {
   cursor: pointer;
-  color: var(--text-primary, #07000F);
+  color: var(--black-500);
 }
 .tab__container-active:hover{
   cursor: pointer;
-  border-bottom: 2px solid var(--border-strong, #07000F);
+  border-bottom: 2px solid var(--black-500);
 }

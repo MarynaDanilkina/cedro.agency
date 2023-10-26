@@ -13,7 +13,7 @@
 }
 .droplist:hover{
   cursor: pointer;
-  background: var(--bg-neutral, rgba(2, 22, 45, 0.05));
+  background: var(--black-100);
 }
 .p__droplist{
   font-family: Arial;

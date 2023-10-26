@@ -1,23 +1,24 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import "./tab.css";
 import cn from "classnames";
 
-const Tab = ({ text }) => {
-  const [active, setActive] = useState(false);
+const Tab = ({ text, stateOfTab = 'default', onClick }) => {
 
   const classes = useMemo(
     () =>
       cn(
         {
-          "tab__container-active": active,
-          "tab__container": active === false
+          "tab__container-active": stateOfTab === 'active',
+          "tab__container": stateOfTab === 'default'
         }
       ),
-    [active]
+    [stateOfTab]
   )
 
+  console.log(stateOfTab);
+
   return (
-    <div className={classes} onClick={() => setActive(!active)}>
+    <div className={classes} onClick={onClick}>
       <p className="p__tab">{text}</p>
     </div>
   )

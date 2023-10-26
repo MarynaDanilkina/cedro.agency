@@ -1,10 +1,10 @@
 import './App.css';
-import Tab from './components/Tab/tab';
+import TabList from './components/TabList/tabList';
 
 function App() {
   return (
     <div className="App">
-      <Tab text="tab item" />
+      <TabList array={["Жк", "Округ", "Район", "Метро"]} />
     </div>
   );
 }
