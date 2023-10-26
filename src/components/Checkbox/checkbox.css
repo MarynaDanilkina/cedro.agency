@@ -1,6 +1,6 @@
 .checkbox{
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 100px;
   border: 1px solid var(--black-200);
 }
@@ -10,8 +10,8 @@
   background: var(--black-100);
 }
 .checkbox__active{
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border-radius: 100px;
   border: 1px solid var(--black-200);
   background: var(--accent-500);

@@ -1,7 +1,7 @@
 .navList__container{
   height: 295px;
   overflow-y: auto;
-  margin-top: 11px;
+  margin-top: 6px;
 }
 .navList__container::-webkit-scrollbar-thumb {
   background: var(--black-500);
@@ -14,7 +14,7 @@
   height: 100% !important;
 }
 .navList__wrapper{
-  padding-right: 5px;
+  padding-right: 7px;
   position: relative;
 }
 .navList__container:after {

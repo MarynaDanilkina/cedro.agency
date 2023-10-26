@@ -3,6 +3,7 @@ import TabList from "../TabList/tabList";
 import { DropdownData, DropdownTitle } from "../../data/DropdownData";
 import React, { useCallback, useEffect, useState } from "react";
 import NavList from "../NavList/navList";
+import Selected from "../Selected/selected";
 
 const Dropdown = ({activeData, getActiveData}) => {
   const [activeTab, setActiveTab] = useState('Жк');
@@ -18,10 +19,11 @@ const Dropdown = ({activeData, getActiveData}) => {
   }, [activeTab]);
 
   return (
-    <button className="dropdown__container">
+    <div className="dropdown__container">
       <TabList array={DropdownTitle} activeTab={activeTab} getActiveTab={getActiveTab} />
+      <Selected activeData={activeData} getActiveData={getActiveData} />
       <NavList data={data} activeData={activeData} getActiveData={getActiveData} />
-    </button>
+    </div>
   )
 }
 export default Dropdown;
