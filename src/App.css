@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 400 600 700 900;
+  font-style: normal;
+}
 :root {
   --black-500: #07000F;
   --black-400: rgba(7, 0, 15, 0.70);
@@ -12,11 +18,31 @@
   --accent-100: rgba(0, 103, 254, 0.05);
 }
 body,
-h1,
+h2,
 p{
   margin: 0;
   font-family: Roboto Condensed;
 }
+button{
+  padding: 0px;
+}
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.title{
+  color: var(--black-500);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.14px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 10vh;
 }

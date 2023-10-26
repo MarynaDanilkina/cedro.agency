@@ -1,0 +1,28 @@
+.button__container{
+  border-radius: 12px;
+  border: 1px solid var(--black-200);
+  background: var(--black-100);
+  width: 320px;
+  height: 48px;
+}
+.button__container:hover{
+  cursor: pointer;
+  border: 1px solid var(--black-300);
+  background: var(--black-100);
+}
+.button{
+  padding: 0px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.p__button{
+  color: var(--black-500);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}

@@ -1,10 +1,13 @@
 import './App.css';
-import TabList from './components/TabList/tabList';
+import Button from './components/Button/button';
 
 function App() {
   return (
     <div className="App">
-      <TabList array={["Жк", "Округ", "Район", "Метро"]} />
+      <div className='container'>
+        <h2 className='title'>Локация</h2>
+        <Button />
+      </div>
     </div>
   );
 }
