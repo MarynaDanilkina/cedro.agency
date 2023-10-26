@@ -15,8 +15,6 @@ const Tab = ({ text, stateOfTab = 'default', onClick }) => {
     [stateOfTab]
   )
 
-  console.log(stateOfTab);
-
   return (
     <div className={classes} onClick={onClick}>
       <p className="p__tab">{text}</p>

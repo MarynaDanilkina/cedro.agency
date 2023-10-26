@@ -1,9 +1,7 @@
 import "./tabList.css";
 import Tab from "../Tab/tab";
-import { useState } from "react";
 
-const TabList = ({ array }) => {
-  const [activeTab, setActiveTab] = useState('Жк');
+const TabList = ({ array, activeTab, getActiveTab }) => {
 
   return (
     <div className="tabList__container">
@@ -13,7 +11,7 @@ const TabList = ({ array }) => {
             text={el}
             key={el}
             stateOfTab={activeTab === el ? 'active' : 'default'}
-            onClick={() => setActiveTab(el)} />
+            onClick={() => getActiveTab(el)} />
         ))}
       </div>
     </div>

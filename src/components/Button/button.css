@@ -5,13 +5,23 @@
   width: 320px;
   height: 48px;
 }
-.button__container:hover{
+.button__container:hover,
+.active{
   cursor: pointer;
   border: 1px solid var(--black-300);
   background: var(--black-100);
 }
+.container__p{
+  display: flex;
+}
 .button{
   padding: 0px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+}
+.button__info{
   display: flex;
   align-items: center;
   gap: 8px;
@@ -23,6 +33,27 @@
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+.sum__container{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  border: 1px solid var(--black-200);
+  background: var(--accent-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sum-container__p{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
   letter-spacing: -0.32px;
   text-transform: uppercase;
 }

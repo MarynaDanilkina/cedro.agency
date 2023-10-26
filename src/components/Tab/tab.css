@@ -16,7 +16,7 @@
   color: var(--black-500);
 }
 .tab__container-active{
-  padding: 12px 0px;
+  padding: 12px 0px 24px;
   border-bottom: 1px solid var(--black-500);
 }
 .tab__container-active:hover > .p__tab {

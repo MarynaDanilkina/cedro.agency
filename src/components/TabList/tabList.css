@@ -1,9 +1,10 @@
 .tabList__container{
-  height: 40px;
+  height: 36px;
   border-bottom: 1px solid var(--black-200);
 }
 .tabList{
   padding: 0px 16px;
   display: flex;
   gap: 16px;
+  height: 100%;
 }
