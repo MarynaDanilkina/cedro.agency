@@ -1,10 +1,10 @@
 import './App.css';
-import Checkbox from './components/Checkbox/checkbox';
+import Droplist from './components/Droplist/droplist';
 
 function App() {
   return (
     <div className="App">
-      <Checkbox />
+      <Droplist text="Академический" />
     </div>
   );
 }

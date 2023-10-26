@@ -1,10 +1,9 @@
 import "./checkbox.css";
 import tickSvg from '../../svg/tick.svg';
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import cn from "classnames";
 
-const Checkbox = () => {
-  const [active, setActive] = useState(false)
+const Checkbox = ({active}) => {
 
   const classes = useMemo(
     () =>
@@ -27,8 +26,7 @@ const Checkbox = () => {
   }, [active])
 
   return (
-    <div className={classes}
-      onClick={setActive}>
+    <div className={classes}>
       {image}
     </div>
   )
