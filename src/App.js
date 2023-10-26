@@ -1,10 +1,10 @@
 import './App.css';
-import Droplist from './components/Droplist/droplist';
+import Tab from './components/Tab/tab';
 
 function App() {
   return (
     <div className="App">
-      <Droplist text="Академический" />
+      <Tab text="tab item" />
     </div>
   );
 }
