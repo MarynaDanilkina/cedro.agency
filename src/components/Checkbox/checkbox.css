@@ -1,0 +1,27 @@
+.checkbox{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  border: 1px solid var(--black-200);
+}
+.checkbox:hover{
+  cursor: pointer;
+  border: 1px solid var(--black-200);
+  background: var(--black-100);
+}
+.checkbox__active{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  border: 1px solid var(--black-200);
+  background: var(--accent-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox__active:hover{
+  cursor: pointer;
+  border-radius: 100px;
+  border: 1px solid var(--black-200);
+  background: var(--accent-600);
+}

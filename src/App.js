@@ -1,10 +1,10 @@
 import './App.css';
-import Label from './components/Label/label';
+import Checkbox from './components/Checkbox/checkbox';
 
 function App() {
   return (
     <div className="App">
-      <Label text="ID 74003" />
+      <Checkbox />
     </div>
   );
 }
