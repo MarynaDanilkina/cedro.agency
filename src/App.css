@@ -1,0 +1,16 @@
+:root {
+  --black-500: #07000F;
+  --black-400: rgba(7, 0, 15, 0.70);
+  --black-300: rgba(7, 0, 15, 0.40);
+  --black-200: rgba(7, 0, 15, 0.10);
+  --black-100: rgba(2, 22, 45, 0.05);
+  --accent-600: #085EDB;
+  --accent-500: #0067FE;
+  --accent-400: rgba(0, 103, 254, 0.70);
+  --accent-300: rgba(0, 103, 254, 0.40);
+  --accent-200: rgba(0, 103, 254, 0.10);
+  --accent-100: rgba(0, 103, 254, 0.05);
+}
+.App {
+  text-align: center;
+}
