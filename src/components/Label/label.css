@@ -13,8 +13,6 @@
 .p__label{
   color: var(--black-500);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
   letter-spacing: -0.28px;
   text-transform: uppercase;
 }

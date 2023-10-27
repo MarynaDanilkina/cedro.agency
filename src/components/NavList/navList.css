@@ -1,7 +1,12 @@
 .navList__container{
-  height: 295px;
   overflow-y: auto;
   margin-top: 6px;
+}
+.small{
+  height: 240px;
+}
+.middle{
+  height: 295px;
 }
 .navList__container::-webkit-scrollbar-thumb {
   background: var(--black-500);

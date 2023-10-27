@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Roboto Condensed';
   src: url('./fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 400 600 700 900;
+  font-weight: 400 500;
   font-style: normal;
 }
 :root {
@@ -22,6 +22,10 @@ h2,
 p{
   margin: 0;
   font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
 }
 button{
   padding: 0px;
@@ -35,7 +39,6 @@ button{
   color: var(--black-500);
   font-family: Arial;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.14px;

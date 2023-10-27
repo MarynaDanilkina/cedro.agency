@@ -28,11 +28,6 @@
 }
 .p__button{
   color: var(--black-500);
-  font-family: Roboto Condensed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%;
   letter-spacing: -0.32px;
   text-transform: uppercase;
 }
@@ -49,11 +44,6 @@
 .sum-container__p{
   color: #FFF;
   text-align: center;
-  font-family: Roboto Condensed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%; /* 16px */
   letter-spacing: -0.32px;
   text-transform: uppercase;
 }

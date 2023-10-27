@@ -3,11 +3,6 @@
 }
 .p__tab{
   color: var(--black-300);
-  font-family: Roboto Condensed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%;
   letter-spacing: -0.32px;
   text-transform: uppercase;
 }
